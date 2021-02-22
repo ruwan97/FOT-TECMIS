@@ -76,6 +76,11 @@ public class Edit_Timetable extends javax.swing.JFrame {
         getContentPane().add(time, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 131, -1, -1));
 
         monTxt.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        monTxt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                monTxtActionPerformed(evt);
+            }
+        });
         getContentPane().add(monTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(276, 166, 150, 30));
 
         mon.setFont(new java.awt.Font("Calibri", 1, 14)); // NOI18N
@@ -84,6 +89,11 @@ public class Edit_Timetable extends javax.swing.JFrame {
         getContentPane().add(mon, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 130, -1, -1));
 
         timeTxt.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
+        timeTxt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                timeTxtActionPerformed(evt);
+            }
+        });
         getContentPane().add(timeTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(38, 166, 150, 30));
 
         thuTxt.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
@@ -328,6 +338,14 @@ public class Edit_Timetable extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_nameTxtActionPerformed
+
+    private void timeTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_timeTxtActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_timeTxtActionPerformed
+
+    private void monTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_monTxtActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_monTxtActionPerformed
 
     /**
      * @param args the command line arguments
